@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  font-family: "Poppins" , sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(136,136,206,0.7);
+}
+.main{
+  margin-top: 2rem;
+  height: auto;
+}
+.header{
+  margin-bottom: 2rem;
+}
+.header h1{
+  text-align: center;
+  color: #f3f3f3;
+}
+.header p{
+  text-align: center;
+  font-style: italic;
+}
+.form-container{
+  background-color: #242451;
+  padding: 2rem 1rem 2rem 1rem;
+}
+#form{
+  height: auto;
+}
+input[type="text"], input[type="email"]{
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.3rem 1rem 0.3rem 0.3rem;
+}
+label{
+  color: #f3f3f3;
+  font-weight: normal;
+}
+select{
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.3rem 1rem 0.3rem 0.3rem;
+}
+.radios{
+  margin-bottom: 0.6rem;
+}
+.checkboxes{
+  margin-bottom: 1rem;
+}
+textarea{
+  width: 100%;
+  padding: 0.3rem 1rem 2rem 0.3rem;
+  margin-bottom: 1rem;
+}
+button{
+  width: 100%;
+  height: 30px;
+  background-color: #37af65;
+  border: none;
+  border-radius: 8px;
+  color: #f3f3f3;
+}
